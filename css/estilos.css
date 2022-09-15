@@ -42,3 +42,24 @@ article > h2 {
   font-weight: normal;
   font-size: 24px;
 }
+
+article > div {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+article > ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+article > ul > li {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+article > footer {
+  /* border: 1px solid black; */
+  text-align: center;
+}
