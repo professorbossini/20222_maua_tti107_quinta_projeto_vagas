@@ -25,6 +25,10 @@ header img {
   /* background-color: #CCC; */
 }
 
+#vagas{
+  padding: 80px 0;
+}
+
 article {
   padding: 12px;
   /* material blue 500 do material design */
