@@ -29,6 +29,25 @@
     footer{
       background-color: cornflowerblue;
     }
+
+
+    article > p::first-letter{
+      font-size: 80px;
+    }
+
+    h1::before {
+      content: "Título da página: ";
+    }
+
+    h1::after{
+      content: " 2022."
+    }
+    
+    article::after{
+      clear: both;
+      display: block;
+      content: "";
+    }
   </style>
 </head>
 <body>
@@ -41,8 +60,9 @@
     <p class="caixa2">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae recusandae cum, dolor cumque in magni repudiandae culpa quo tempora?
     </p>
-    <div style="clear: both"></div>
+    <!-- <div style="clear: both"></div> -->
   </article>
+
   <footer>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, quos!
   </footer>
