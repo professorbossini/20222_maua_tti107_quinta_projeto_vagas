@@ -18,7 +18,8 @@ header img {
 }
 
 .container {
-  width: 1200px;
+  /* width: 1280px; */
+  width: 100%;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -38,10 +39,20 @@ article {
   padding: 12px;
   /* material blue 500 do material design */
   border: 1px solid #2196F3;
-  width: 380px;
+  /* width: 30%;
   float: left;
-  margin-right: 8px;
+  margin-right: 8px; */
 }
+
+/* isso é um media query */
+@media(min-width: 960px){
+  article{
+    width: 30%;
+    float: left;
+    margin-right: 8px;
+  }
+}
+
 
 article > h2 {
   background-color: #2196F3;
